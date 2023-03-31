@@ -1,0 +1,26 @@
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    color: chocolate ;
+    background-color: cadetblue;
+}
+
+#show_sketch{
+    float: right;
+}
+
+canvas{
+    border: 5px solid coral;
+    border-radius: 10px ;
+    animation-name:Example;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    margin-top:80px;
+}
+
+@keyframes Example{
+    from{box-shadow: 5px 5px 15px red;}
+    to{box-shadow: 5px 5px 15px salmon;}
+}
